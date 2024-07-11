@@ -4,15 +4,19 @@
     font-family: Arial, sans-serif;
     height: 100%;
     margin-top: -20px;
+
 }
 
 header {
     text-align: center;
     padding: 25px;
-    margin-top: 10px;
+    margin-top: 30px;
    
     background-color: #333;
     color: #fff;
+}abi
+#product{
+  text-align: center;
 }
 
 
@@ -49,6 +53,7 @@ button {
 
 #customer-name{
   width: 236px;
+  /* background-color: ; */
  }
  
   #phone-number{
@@ -82,26 +87,30 @@ button {
   width: 260px;
   margin-left: 350px;
   margin-top: -90px;
+  
 }
 #deteils{
-  /* background-image: url(wallpaper2you_512871.jpg);
-  color: white; */
   height: 250px;
   border: 1px solid;
   margin-top: 20px;
+  box-shadow: 2px 0px 8px 2px;
+  border-radius: 8px;
+
 }
 #show{
   margin-top: 80px;
   border: 1px solid;
+  box-shadow: 2px 0px 8px 2px;
+  border-radius: 8px;
 }
 .total{
   margin-left: 59%;
   margin-top:-40px;;
 }
 #add{
-  margin-left: 900px;
-  margin-top: -350px;
- position: absolute;
+  margin-left: 1000px;
+  margin-top: -90px;
+ 
   
 }
 #bill{
