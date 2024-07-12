@@ -17,7 +17,7 @@
     </header>
     <div id="deteils" class="container container-custom">
     <main class="container mt-4">
-        <form>
+         <form>
             <div class="form-group">
                 <label for="customer-name">Customer Name:</label>
                 <input type="text" class="form-control" id="customer-name" name="customer-name" placeholder="Enter customer name">
@@ -48,6 +48,7 @@
                 </select>
             </div>
         </div>
+    </div> 
 
         <div id="show" class="container container-custom">
             <button id="add" type="button" class="btn btn-secondary mb-2" onclick="addRow()">Add Row</button>
@@ -84,21 +85,21 @@
                     </tr>
                 </tbody>
             </table>
-            
-        </form>
-    </div>
+      
     <div class="total mt-4">
         <p>Subtotal: $<span id="subtotal">0.00</span></p>
         <p>GST (5%): $<span id="gst">0.00</span></p>
         <p>Discount (10%): $<span id="discount">0.00</span></p>
         <h4>Total: <span id="total">0.00</span></h4>
         </div>
-        <input id="bill" type="submit" class="btn btn-success" onclick="save()" value="Save">
+        <input id="save" type="submit" class="btn btn-success" onclick="save()" value="Save">
         <input id="can" type="submit" class="btn btn-danger" value="cancel">
-       
-    </main>
+   </main>
+</form>
 </body>
 </html>
+
+
 
 
 
